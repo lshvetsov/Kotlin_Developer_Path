@@ -5,6 +5,9 @@ This project is the combination of learning projects in the Kotlin Developer pat
 **Requirements**
 - Java 17
 
+**Dependencies**
+- kotlinx-cli: ```org.jetbrains.kotlinx:kotlinx-cli:0.3.6```
+
 ### HyperMetro
 
 Find the path in the London underground using different algorithms!
