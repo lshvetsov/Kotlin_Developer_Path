@@ -1,7 +1,5 @@
 This project is the combination of learning projects in the Kotlin Developer path of JetBrains Academy
 
-//TODO Implement the umbrella CLI interface using ```kotlinx-cli``` and describe it
-
 **Requirements**
 - Java 17
 
@@ -19,3 +17,15 @@ Find the path in the London underground using different algorithms!
 
 **Dependencies**
 - gson: ```com.google.code.gson:gson:2.10```
+
+### Matrix (Matrix Manipulator)
+
+**Requirements**
+- implement base matrix operations
+  - add two matrices 
+  - multiply a matrix and a constant
+  - multiply two matrices
+  - matrix transposition (main, side diagonal, horizontal, vertical)
+  - calculation of a determinant 
+  - matrix inversion 
+- create a menu to interact with a user 

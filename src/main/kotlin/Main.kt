@@ -3,6 +3,7 @@ import kotlinx.cli.ArgType
 import kotlinx.cli.required
 
 const val HYPER_METRO = "HyperMetro"
+const val MATRIX = "Matrix"
 const val EXIT = "Exit"
 
 fun main(args: Array<String>) {
@@ -11,6 +12,7 @@ fun main(args: Array<String>) {
     parser.parse(args)
     when (project) {
         HYPER_METRO -> HyperMetro.run("src/main/resources/london.json")
+        MATRIX -> MatrixManipulator.run()
         EXIT -> println("Bye!")
     }
 }
