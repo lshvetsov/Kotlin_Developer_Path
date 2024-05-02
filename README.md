@@ -10,6 +10,8 @@ This project is the combination of learning projects in the Kotlin Developer pat
 
 Find the path in the London underground using different algorithms!
 
+**Level**: Challenging
+
 **Requirements**
 - implement a data structure to hold a subway map
 - implement basic operations: add, remove a station, cross lines etc
@@ -20,6 +22,8 @@ Find the path in the London underground using different algorithms!
 
 ### Matrix (Matrix Manipulator)
 
+**Level**: Challenging
+
 **Requirements**
 - implement base matrix operations
   - add two matrices 
@@ -29,3 +33,16 @@ Find the path in the London underground using different algorithms!
   - calculation of a determinant 
   - matrix inversion 
 - create a menu to interact with a user 
+
+### PhoneBook
+
+**Level**: Medium
+
+**Requirements**
+Implement a sort and search engine supporting:
+- bubble sort
+- quick sort
+- hash table
+- linear search
+- jump search
+- binary search
