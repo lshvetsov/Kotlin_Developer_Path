@@ -5,6 +5,7 @@ import kotlinx.cli.required
 const val HYPER_METRO = "HyperMetro"
 const val MATRIX = "Matrix"
 const val PHONE_BOOK = "PhoneBook"
+const val SEAM_CURVING = "SeamCurving"
 const val EXIT = "Exit"
 
 fun main(args: Array<String>) {
@@ -15,6 +16,7 @@ fun main(args: Array<String>) {
         HYPER_METRO -> HyperMetro.run("src/main/resources/london.json")
         MATRIX -> MatrixManipulator.run()
         PHONE_BOOK -> PhoneBookRunner.run()
+        SEAM_CURVING -> SeamCarvingRunner.run()
         EXIT -> println("Bye!")
     }
 }
